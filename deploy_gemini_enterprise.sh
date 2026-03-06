@@ -24,7 +24,7 @@ export PROJECT_NUMBER="<YOUR_PROJECT_NUMBER>"     # e.g., "124324376981"
 export AS_APP="<YOUR_GEMINI_ENTERPRISE_APP_ID>"   # e.g., "fs-mcp-app_1772723740754"
 
 # FactSet OAuth Details
-export AUTH_ID="factset-auth-06"                  # Update if recreating to avoid conflicts
+export AUTH_ID="<YOUR_UNIQUE_AUTH_ID>"            # Must be unique (e.g. "factset-auth-01")
 export CLIENT_ID="<YOUR_FACTSET_CLIENT_ID>"
 export CLIENT_SECRET="<YOUR_FACTSET_CLIENT_SECRET>"
 
