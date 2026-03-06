@@ -1,0 +1,23 @@
+{
+  "name": "your_app_name",
+  "clientId": "<YOUR_FACTSET_CLIENT_ID>",
+  "clientAuthType": "Confidential Client Application - Machine Authorization",
+  "owners": [
+    "YOUR_EMAIL@DOMAIN.COM"
+  ],
+  "jwk": {
+    "kty": "RSA",
+    "use": "sig",
+    "alg": "RS256",
+    "kid": "<YOUR_KEY_ID>",
+    "d": "<YOUR_D>",
+    "n": "<YOUR_N>",
+    "e": "AQAB",
+    "p": "<YOUR_P>",
+    "q": "<YOUR_Q>",
+    "dp": "<YOUR_DP>",
+    "dq": "<YOUR_DQ>",
+    "qi": "<YOUR_QI>"
+  },
+  "wellKnownUri": "https://auth.factset.com/.well-known/openid-configuration"
+}

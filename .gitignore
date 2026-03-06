@@ -1,0 +1,8 @@
+.env
+config.json
+deploy_local.sh
+.venv/
+__pycache__/
+*.pyc
+.adk/
+.DS_Store
