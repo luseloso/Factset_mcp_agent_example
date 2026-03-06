@@ -37,7 +37,7 @@ def deploy_agent_engine_app():
             "google-cloud-aiplatform[agent_engines,adk]",
         ],
         "extra_packages": ["agent.py", "config.json"],
-        "env_vars": {"GOOGLE_CLOUD_AGENT_ENGINE_ENABLE_TELEMETRY": "true"},
+        "env_vars": {"GOOGLE_CLOUD_AGENT_ENGINE_ENABLE_TELEMETRY": "true", "OTEL_INSTRUMENTATION_GENAI_CAPTURE_MESSAGE_CONTENT": "true"},
     }
 
     existing_agents = list(agent_engines.list(filter='display_name="Factset_MCP_Agent"'))
